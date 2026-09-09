@@ -1,0 +1,45 @@
+{
+  "version": "2026.09.09",
+  "executable": "bakery-20260909",
+  "packBytes": 339742300,
+  "parts": [
+    {
+      "file": "bakery-20260909.pck.part00",
+      "bytes": 50331648,
+      "sha256": "145ff7833cbcf88eddcea8bebe9c7704a1c5351d5b6d773fdc9cafa045e7f6c3"
+    },
+    {
+      "file": "bakery-20260909.pck.part01",
+      "bytes": 50331648,
+      "sha256": "bfeaf544515d9c344c4fdeb5f17c11715f0e9e9460217dd3bcc92eb5cf768fe7"
+    },
+    {
+      "file": "bakery-20260909.pck.part02",
+      "bytes": 50331648,
+      "sha256": "33e0e215308ebe8adf17640e53b53d1203efcc06af91e0307979ebd29353a8bd"
+    },
+    {
+      "file": "bakery-20260909.pck.part03",
+      "bytes": 50331648,
+      "sha256": "95fcf8a7e61d8cc63762d41d4e7938689e23c997769c0c4d99ecdcd8eb9bb78b"
+    },
+    {
+      "file": "bakery-20260909.pck.part04",
+      "bytes": 50331648,
+      "sha256": "2b6d5bb1671ee3fc12ab22a016b935c492b9ab0f30e9391eafc8834eec10ce55"
+    },
+    {
+      "file": "bakery-20260909.pck.part05",
+      "bytes": 50331648,
+      "sha256": "f756474e0106aa3c8dff2ddbcde3b5fc61d8df530191b19efc905862fcf1a308"
+    },
+    {
+      "file": "bakery-20260909.pck.part06",
+      "bytes": 37752412,
+      "sha256": "1f6c6aaba4defd946cd5e279f5116318440069dacb833847fa76960103ee58b3"
+    }
+  ],
+  "fileSizes": {
+    "bakery-20260909.wasm": 39514754
+  }
+}
