@@ -52,42 +52,42 @@
   {
     "file": "docs/bakery-20260909.pck.part00",
     "bytes": 50331648,
-    "sha256": "0005ca522dec982968e88f814e3eaf9dcf06fa8362bb2fd73294f722c34457ca"
+    "sha256": "54655ddd52fc6496b581a9754b0f32a865f94fa0e53191471be15f665badc6c0"
   },
   {
     "file": "docs/bakery-20260909.pck.part01",
     "bytes": 50331648,
-    "sha256": "17352100021d0801ab44ed54edfabd2e5745b5ca2bcc2eaee5dcf351250510a3"
+    "sha256": "3633072303988dd21906624d81c03f5fdf35f5aa777a09208ebb4c26c14d0bc2"
   },
   {
     "file": "docs/bakery-20260909.pck.part02",
     "bytes": 50331648,
-    "sha256": "9a52f6ae0a5a613a7614e343737a2bc547ee244e9a8968c45f839600bb3a8d88"
+    "sha256": "e7f5390866274c8dd2adbdd07d23ce36c1d9b9c26cc7933a08f5142e9a457779"
   },
   {
     "file": "docs/bakery-20260909.pck.part03",
     "bytes": 50331648,
-    "sha256": "287bce8008ef14a54ca702fe1d59b09f3ac54a9773a294c5cbf474b442938808"
+    "sha256": "da0201031ebaee6beecf94dc1e7542bd1e105abe91a2bed5653e7fd02d4ba2bf"
   },
   {
     "file": "docs/bakery-20260909.pck.part04",
     "bytes": 50331648,
-    "sha256": "cf85addc9e78cc73ef0fecf54f801d20175426a213105cb2cb3fba2454553082"
+    "sha256": "a3018a00a0335e535009ff4f834f079774d39fc26049cc51ebe1082e99153ba3"
   },
   {
     "file": "docs/bakery-20260909.pck.part05",
     "bytes": 50331648,
-    "sha256": "5cbfbf716319747cb85fc7aaead49758f6e746315106fb801df700fcf018b017"
+    "sha256": "16f05b4f95ae75b6eea7fe0165f7b04af8e16fbc22db8343ed0952dd4937084f"
   },
   {
     "file": "docs/bakery-20260909.pck.part06",
     "bytes": 50331648,
-    "sha256": "0b0b4945d73c34a17048ee7891d0081d498e4dcf9fc0e3129520c0886809b76b"
+    "sha256": "6c41494d9355a9ab5d29d5754658ab0742eea0b52197fa1b3567b0bb710557d2"
   },
   {
     "file": "docs/release.json",
     "bytes": 1486,
-    "sha256": "8ef62fed1807031dfdfa66c6c00eb2fe7c06ee24fb7556a11e6e9a620934b4ce"
+    "sha256": "e73ddd7163d1d57d9e1c9efca0f7e1a8bb52b16765a6a30c9b1d81af9867e66d"
   },
   {
     "file": "docs/.nojekyll",
@@ -96,8 +96,8 @@
   },
   {
     "file": "docs/bakery-20260909.pck.part07",
-    "bytes": 1436184,
-    "sha256": "997a15af6880d7550de4a64a6c12936badfd4348ecb938ba754f1f5531e9a694"
+    "bytes": 1436888,
+    "sha256": "b3c1f1289f549ebee5eed9e315693cf71a6901dcf377a943e1b5ef4fb4953f40"
   },
   {
     "file": "docs/licenses/FONT-OFL.txt",
