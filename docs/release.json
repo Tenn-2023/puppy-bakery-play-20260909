@@ -1,42 +1,47 @@
 {
   "version": "2026.09.09",
   "executable": "bakery-20260909",
-  "packBytes": 339742300,
+  "packBytes": 353757416,
   "parts": [
     {
       "file": "bakery-20260909.pck.part00",
       "bytes": 50331648,
-      "sha256": "145ff7833cbcf88eddcea8bebe9c7704a1c5351d5b6d773fdc9cafa045e7f6c3"
+      "sha256": "10492e7745052e4b6b036296d445f3670924171a3599fcbe8c28914a517d1015"
     },
     {
       "file": "bakery-20260909.pck.part01",
       "bytes": 50331648,
-      "sha256": "bfeaf544515d9c344c4fdeb5f17c11715f0e9e9460217dd3bcc92eb5cf768fe7"
+      "sha256": "b871f67d687176e98a3ddb67710c8ae947e001c6dc72c6ae550a6e4ae70430db"
     },
     {
       "file": "bakery-20260909.pck.part02",
       "bytes": 50331648,
-      "sha256": "33e0e215308ebe8adf17640e53b53d1203efcc06af91e0307979ebd29353a8bd"
+      "sha256": "ba630aad44240bf83bf1f3c29159946f787aacc8b5111c4f798ba39f475fb038"
     },
     {
       "file": "bakery-20260909.pck.part03",
       "bytes": 50331648,
-      "sha256": "95fcf8a7e61d8cc63762d41d4e7938689e23c997769c0c4d99ecdcd8eb9bb78b"
+      "sha256": "1d15b8bf107e1ded5465705d7ee4e39d14018d73d50b0b8f34d0d8e6517a36ef"
     },
     {
       "file": "bakery-20260909.pck.part04",
       "bytes": 50331648,
-      "sha256": "2b6d5bb1671ee3fc12ab22a016b935c492b9ab0f30e9391eafc8834eec10ce55"
+      "sha256": "7cd65b61af2f358ec0b3259a4af4d6ae54bf4631499fc3ff9a921916f4e6f4b2"
     },
     {
       "file": "bakery-20260909.pck.part05",
       "bytes": 50331648,
-      "sha256": "f756474e0106aa3c8dff2ddbcde3b5fc61d8df530191b19efc905862fcf1a308"
+      "sha256": "1009ad72118b721b2b173472c04b9a4d3c3b86e33781d92ae621f17b09d79754"
     },
     {
       "file": "bakery-20260909.pck.part06",
-      "bytes": 37752412,
-      "sha256": "1f6c6aaba4defd946cd5e279f5116318440069dacb833847fa76960103ee58b3"
+      "bytes": 50331648,
+      "sha256": "0393d29c54d3432981f4021bcc22af0b5add7022d190d20b0ee68cf833cbd437"
+    },
+    {
+      "file": "bakery-20260909.pck.part07",
+      "bytes": 1435880,
+      "sha256": "5567900295cab529a4c0e030688ddc0439df8e291bbbbb7b9dc3d98f9bb5dd37"
     }
   ],
   "fileSizes": {
