@@ -1,10 +1,18 @@
 {
-  "version": "2026.09.09",
+  "version": "2026.09.13",
   "engine": "Godot 4.7.2 Compatibility Web single-thread",
   "source_assets": {
     "assets/town3d/watercolor_town.glb": "d3c7c1deed792fc88be80661e5a6c1c7278afc84952aedbf952dc99688ff274e",
     "assets/interiors/v107/kitchen_v107_candidate.glb": "ab7517e4b3e00b3e8439e71846530f1d7a0ce9daa6602544ece79c387703ea50",
-    "scripts/runtime/game_session.gd": "bb9fba6271729ef614ff960324a4bf88fc82d864fe3a140e882f5902d947c844",
-    "export_presets.cfg": "e74634b39be050fed8ea2c3d73d008a323a1ea3e20b09a1f9950f7b74e7f5740"
+    "scripts/runtime/game_session.gd": "844a84a889c7cc627466d15910a19fc49dbbb5497051aa8fd1ee3408365b9564",
+    "export_presets.cfg": "2606214ab149949625f4895ebd7adfd55ec9a45d40bb006b674fea27dcc5f2fc",
+    "scripts/runtime/web_name_input.gd": "a7dca727c97d4d32afedb3f71423686c7189fe997af0dfb46ef03a1ab87e19e3",
+    "scripts/runtime/game_start.gd": "642037843b8535501745e1f5fcc8891d4116851931973f8505807a8c852d3aa1",
+    "scripts/runtime/opening_recipe_draw.gd": "4945d9b20a74a4446d82e85212841755de87feed70f0ecdabbeb1ddf957d6647",
+    "scripts/runtime/interior_camera_input.gd": "d9b330ca27ce9fba235c5221ff85a5b6c4da562f42de23451c2c4e12ceb0c28d",
+    "scripts/runtime/ingredient_market.gd": "285ab919e31927ddc9b8f0dddbcf89d53dc41d299f8fe4a915cd3955fc1537c6",
+    "scripts/runtime/drag_scroll.gd": "9c9e632d219a7eb9d4966b061e4f40fcda6746dbbf17d53ec4171e8663620681",
+    "scripts/runtime/room_departure.gd": "623fdd9e4f4ef822aaa3abe8efe858eb6496862b4457f033975403678d98b127",
+    "scripts/runtime/bakery_ui.gd": "f583f4dd30c8772f23fd564f2a2f9b270f99ed9b2733d806cb8a9a72f387d560"
   }
 }
