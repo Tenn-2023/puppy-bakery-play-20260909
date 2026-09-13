@@ -1,117 +1,86 @@
-[
-  {
-    "file": ".gitignore",
-    "bytes": 33,
-    "sha256": "9f20470f7ab0c287e3cbb839661df2ecbd9d59c396d7d519012a3fb85e1f6fe1"
-  },
-  {
-    "file": "BUILD.json",
-    "bytes": 1423,
-    "sha256": "d1a8bc1237fb088e786a559240a0dd37e500b0cd8fa5d365d1e81a53ae1d7bfe"
-  },
-  {
-    "file": "README.md",
-    "bytes": 1648,
-    "sha256": "ae15028e2739b83f4fd46b6f8a719c9574e38224139c104ec7e62622c32df619"
-  },
-  {
-    "file": "docs/.nojekyll",
+{
+  ".nojekyll": {
     "bytes": 0,
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
-  {
-    "file": "docs/bakery-20260909.audio.position.worklet.js",
+  "bakery-20260909.audio.position.worklet.js": {
     "bytes": 2973,
     "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
   },
-  {
-    "file": "docs/bakery-20260909.audio.worklet.js",
+  "bakery-20260909.audio.worklet.js": {
     "bytes": 7298,
     "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
   },
-  {
-    "file": "docs/bakery-20260909.icon.png",
+  "bakery-20260909.icon.png": {
     "bytes": 5765,
     "sha256": "662f81d7672001a6f5f928532493267c226624757de3b5fa2908f6e5923964b7"
   },
-  {
-    "file": "docs/bakery-20260909.js",
+  "bakery-20260909.js": {
     "bytes": 279815,
     "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
   },
-  {
-    "file": "docs/bakery-20260909.pck.part00",
+  "bakery-20260909.pck.part00": {
     "bytes": 50331648,
-    "sha256": "548b79008d18b788f996c7620d69243c667968646d5bdc395216d455c17baea3"
+    "sha256": "75d99dc696f10259e1632e76e84d7666b0320cfa4626afae333da6e652ea16ee"
   },
-  {
-    "file": "docs/bakery-20260909.pck.part01",
+  "bakery-20260909.pck.part01": {
     "bytes": 50331648,
-    "sha256": "96e685ab6fc6c6bdb80bd18f845badd649ece75af23e528bb940504dbc9ea3f4"
+    "sha256": "8387fed538383a480c79a6f008848c5805df2d3a3b4dac86fa83ebd60cd513f9"
   },
-  {
-    "file": "docs/bakery-20260909.pck.part02",
+  "bakery-20260909.pck.part02": {
     "bytes": 50331648,
-    "sha256": "29cf61b03abb48c8c96467046f49c7aa9e557832c73792a03116a6b693743d17"
+    "sha256": "437a790e41977fe670d0f9b30ab25d455d011a1426dcf45f3551cba96ab7d345"
   },
-  {
-    "file": "docs/bakery-20260909.pck.part03",
+  "bakery-20260909.pck.part03": {
     "bytes": 50331648,
-    "sha256": "96376da869ea1a7dc60c86209d4aca497cc4d357df2fd18d5ebd21b590577dca"
+    "sha256": "d0e604f85ed2ca9c33e127f3a044de872e9ae0f2d4905048dc2d2d96ce078819"
   },
-  {
-    "file": "docs/bakery-20260909.pck.part04",
+  "bakery-20260909.pck.part04": {
     "bytes": 50331648,
-    "sha256": "7d1676fcc689195012b6ea1b1c69107e2ea1f4c3d93564067ec037bb8c856402"
+    "sha256": "e6bbce025d0a0fe2c6949da37f9f363f67d31184435d8a667123884379ff093e"
   },
-  {
-    "file": "docs/bakery-20260909.pck.part05",
+  "bakery-20260909.pck.part05": {
     "bytes": 50331648,
-    "sha256": "14093a9e00679fdad0afa126c428fddc96a5bc214492dc22901b699cf9ff9ef5"
+    "sha256": "de08fe3a614984ef3874a9ea2294855a8f4028e0e4ebfd67781030ae52a16451"
   },
-  {
-    "file": "docs/bakery-20260909.pck.part06",
+  "bakery-20260909.pck.part06": {
     "bytes": 50331648,
-    "sha256": "6dedf1314bab7149bf677b1dd3f02afb9b5d50af65b3620edeb6be1c198f661a"
+    "sha256": "5c3103aa277d1b6093bd048e0f030221c422e5bffac66998c43f4217f4d31038"
   },
-  {
-    "file": "docs/bakery-20260909.pck.part07",
-    "bytes": 11245244,
-    "sha256": "bbad45021a4662477593ac0f0acf48b9768356ad6afe79d47aecc73c6c568d29"
+  "bakery-20260909.pck.part07": {
+    "bytes": 50331648,
+    "sha256": "2d329b906895c88a5fd119fcb6ee4b4eaee650d22720ebf647ad40fc4bddd39d"
   },
-  {
-    "file": "docs/bakery-20260909.wasm",
+  "bakery-20260909.pck.part08": {
+    "bytes": 43824864,
+    "sha256": "08a8a4e50c2b4bd22050a8e67784303669cf4860e1379e692a77101290dce63d"
+  },
+  "bakery-20260909.wasm": {
     "bytes": 39514754,
     "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
   },
-  {
-    "file": "docs/index.html",
-    "bytes": 2260,
-    "sha256": "4225639afa0e76ec4f417c0dee2c31d654348a59858c3a048666a765c6590ae4"
+  "index.html": {
+    "bytes": 2101,
+    "sha256": "aa8baf15ad994962dc367f3e96d65deb984834237e4392716bca9ec8fcab8395"
   },
-  {
-    "file": "docs/launcher.js",
-    "bytes": 4962,
-    "sha256": "ebc6f0df2f4a18ca85fce8b9428a7bcf961cb52babb4288523a8493b1f7d8596"
+  "launcher.js": {
+    "bytes": 4740,
+    "sha256": "bb24cfb54727ba464c6b3bfdc617c505ff001e0be20addeff5837db23024e726"
   },
-  {
-    "file": "docs/licenses/FONT-OFL.txt",
+  "licenses/FONT-OFL.txt": {
     "bytes": 4388,
     "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
   },
-  {
-    "file": "docs/licenses/GODOT-MIT.txt",
+  "licenses/GODOT-MIT.txt": {
     "bytes": 1149,
     "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
   },
-  {
-    "file": "docs/licenses/GODOT-THIRD-PARTY.txt",
+  "licenses/GODOT-THIRD-PARTY.txt": {
     "bytes": 100327,
     "sha256": "d5aeff0741d5cb7a566befd8867667549c8bb46399a0e93091273b632bbefd96"
   },
-  {
-    "file": "docs/release.json",
-    "bytes": 1487,
-    "sha256": "4db6af8ab089d44b573d66451fcd1b916ecf5de2e489b594c93039bb6ce4a0f4"
+  "release.json": {
+    "bytes": 1662,
+    "sha256": "0e005d14b23d4b4fd36770e82c81aa40c86401f99d147861f92e984bd0e9097d"
   }
-]
+}

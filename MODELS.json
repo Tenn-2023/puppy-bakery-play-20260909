@@ -1,0 +1,89 @@
+{
+  "version": "2026.09.14-models-ui",
+  "models": [
+    {
+      "id": "samoyed_white",
+      "name": "萨摩耶",
+      "resource": "res://assets/managers/models/samoyed_supplied/samoyed_refined.glb",
+      "bytes": 29715780,
+      "sha256": "9869b347e004033436669e87b69a6a9f804c3150ccbad6d36ab378b45b26eba4"
+    },
+    {
+      "id": "poodle_black",
+      "name": "贵宾",
+      "resource": "res://assets/managers/models/poodle_supplied/poodle_preserved_coat.glb",
+      "bytes": 67212176,
+      "sha256": "4041687525b370693bb466bfe69fcbb5b6d3da4c61a48b6d81c638d0346fce9a"
+    },
+    {
+      "id": "schnauzer_pepper_salt",
+      "name": "雪纳瑞",
+      "resource": "res://assets/managers/models/schnauzer_pepper_salt_trial/schnauzer_study.glb",
+      "bytes": 10313212,
+      "sha256": "2bbc3558cc1649a0c68214b54fbd99afaf12cad628e20712b1ed038eff4b22e0"
+    },
+    {
+      "id": "shiba_black_tan",
+      "name": "柴犬",
+      "resource": "res://assets/managers/models/shiba_supplied/shiba_refined.glb",
+      "bytes": 57310388,
+      "sha256": "3c04f50ecf091113b713e10798d872790642590ed00bec98e32b9cf5de76fed2"
+    },
+    {
+      "id": "dachshund_black_tan",
+      "name": "腊肠犬",
+      "resource": "res://assets/managers/models/dachshund_supplied/dachshund_refined.glb",
+      "bytes": 56262424,
+      "sha256": "5be9e495b30462f61f15eeac29231ff42a6f39d201409f1338d4d0b3e2f1da3b"
+    },
+    {
+      "id": "beagle_tan_white",
+      "name": "比格犬",
+      "resource": "res://assets/managers/models/beagle_supplied/beagle_refined.glb",
+      "bytes": 58693216,
+      "sha256": "b27ff53d8d72718194574a2c6423031c630e308f8644826ce2256a00ed8edd7b"
+    },
+    {
+      "id": "duck",
+      "name": "小鸭",
+      "resource": "res://assets/citizens/models/duck_supplied/duck_candidate.glb",
+      "bytes": 18667096,
+      "sha256": "9a878f84d58da9b110489a9710d87ea3a54639396c67a1afdfe32a5ac109d641"
+    },
+    {
+      "id": "lamb",
+      "name": "小羊",
+      "resource": "res://assets/citizens/models/lamb_supplied/lamb_refined.glb",
+      "bytes": 17460936,
+      "sha256": "723b9134cc69e74f6705a36fb71677c35cd73f539392ce678889bd9f3176f1d1"
+    },
+    {
+      "id": "raccoon",
+      "name": "浣熊",
+      "resource": "res://assets/citizens/models/raccoon_supplied/raccoon_refined.glb",
+      "bytes": 22208808,
+      "sha256": "6bf028c1db2c13a2dc04120af5b8dffb4c5205b5894ef66fa2ead88e33c3364c"
+    },
+    {
+      "id": "hedgehog",
+      "name": "小刺猬",
+      "resource": "res://assets/citizens/models/hedgehog_supplied/hedgehog_candidate.glb",
+      "bytes": 16878204,
+      "sha256": "580b441d7e29b96ae1ee8b3c1320b197382c629c33c9302a7e740e40574df599"
+    },
+    {
+      "id": "otter",
+      "name": "小水獭",
+      "resource": "res://assets/citizens/models/otter_supplied/otter_refined.glb",
+      "bytes": 20070072,
+      "sha256": "04a42196380b25bb99f44f2d01b47b7c18e01b8e559eaed90827fee9c0276716"
+    },
+    {
+      "id": "lamb_blue_scarf",
+      "name": "莓莓",
+      "resource": "res://assets/citizens/models/lamb_supplied/lamb_blue_resident.glb",
+      "bytes": 17496072,
+      "sha256": "883af775e3c7e4422e589057a0a99aa1ee0be246901e1ff4254bce26638a30ef"
+    }
+  ]
+}
