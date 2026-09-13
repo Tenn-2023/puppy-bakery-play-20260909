@@ -1,47 +1,47 @@
 {
-  "version": "2026.09.13",
+  "version": "2026.09.13-ui-c",
   "executable": "bakery-20260909",
-  "packBytes": 363566780,
+  "packBytes": 363617344,
   "parts": [
     {
       "file": "bakery-20260909.pck.part00",
       "bytes": 50331648,
-      "sha256": "548b79008d18b788f996c7620d69243c667968646d5bdc395216d455c17baea3"
+      "sha256": "19fe55459bd1f968e735969e2ac4cf321875808ea2b66286837bf1bda62c407e"
     },
     {
       "file": "bakery-20260909.pck.part01",
       "bytes": 50331648,
-      "sha256": "96e685ab6fc6c6bdb80bd18f845badd649ece75af23e528bb940504dbc9ea3f4"
+      "sha256": "81308782435509c8c3200550390908a1bb5db680b33c00741b73f43c21137861"
     },
     {
       "file": "bakery-20260909.pck.part02",
       "bytes": 50331648,
-      "sha256": "29cf61b03abb48c8c96467046f49c7aa9e557832c73792a03116a6b693743d17"
+      "sha256": "a78cbfde0871dabef8ef574f6ebaef8ede71e77cda344541da2ddae4abc7b069"
     },
     {
       "file": "bakery-20260909.pck.part03",
       "bytes": 50331648,
-      "sha256": "96376da869ea1a7dc60c86209d4aca497cc4d357df2fd18d5ebd21b590577dca"
+      "sha256": "e9f974fefe9d82b653cfc25ce598a51e0d9bd3fbfedcab0383d21c503c1e535c"
     },
     {
       "file": "bakery-20260909.pck.part04",
       "bytes": 50331648,
-      "sha256": "7d1676fcc689195012b6ea1b1c69107e2ea1f4c3d93564067ec037bb8c856402"
+      "sha256": "318b7981301f59890ecff26c7f80c2010776e6b9d7e5839c92de99eb2bf09c18"
     },
     {
       "file": "bakery-20260909.pck.part05",
       "bytes": 50331648,
-      "sha256": "14093a9e00679fdad0afa126c428fddc96a5bc214492dc22901b699cf9ff9ef5"
+      "sha256": "6c06b9bca1dd3bf067f1c8a5b328acf30b8d804de0b8b84281c49c9c5bb9abec"
     },
     {
       "file": "bakery-20260909.pck.part06",
       "bytes": 50331648,
-      "sha256": "6dedf1314bab7149bf677b1dd3f02afb9b5d50af65b3620edeb6be1c198f661a"
+      "sha256": "2ac39a823941e1788ef7104935ca0b6a326e957d9970847a6d7a8d8bff7230ab"
     },
     {
       "file": "bakery-20260909.pck.part07",
-      "bytes": 11245244,
-      "sha256": "bbad45021a4662477593ac0f0acf48b9768356ad6afe79d47aecc73c6c568d29"
+      "bytes": 11295808,
+      "sha256": "7a36536a28844b134df70356884e571c88cd013cb8b29ab9f29b8b9f05344d50"
     }
   ],
   "fileSizes": {

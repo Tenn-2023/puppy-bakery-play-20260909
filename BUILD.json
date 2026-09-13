@@ -1,18 +1,32 @@
 {
-  "version": "2026.09.13",
+  "version": "2026.09.13-ui-c",
   "engine": "Godot 4.7.2 Compatibility Web single-thread",
   "source_assets": {
     "assets/town3d/watercolor_town.glb": "d3c7c1deed792fc88be80661e5a6c1c7278afc84952aedbf952dc99688ff274e",
     "assets/interiors/v107/kitchen_v107_candidate.glb": "ab7517e4b3e00b3e8439e71846530f1d7a0ce9daa6602544ece79c387703ea50",
-    "scripts/runtime/game_session.gd": "844a84a889c7cc627466d15910a19fc49dbbb5497051aa8fd1ee3408365b9564",
+    "scripts/runtime/game_session.gd": "4668c50a904593ac6054ac218e68ed453cfbfce486decdee634823ad60900a1a",
     "export_presets.cfg": "2606214ab149949625f4895ebd7adfd55ec9a45d40bb006b674fea27dcc5f2fc",
     "scripts/runtime/web_name_input.gd": "a7dca727c97d4d32afedb3f71423686c7189fe997af0dfb46ef03a1ab87e19e3",
     "scripts/runtime/game_start.gd": "642037843b8535501745e1f5fcc8891d4116851931973f8505807a8c852d3aa1",
-    "scripts/runtime/opening_recipe_draw.gd": "4945d9b20a74a4446d82e85212841755de87feed70f0ecdabbeb1ddf957d6647",
+    "scripts/runtime/opening_recipe_draw.gd": "b687c65f91e9bbb0dc5d18f7e9a7b2ab06e8f8665a8b3651914f8a6121732705",
     "scripts/runtime/interior_camera_input.gd": "d9b330ca27ce9fba235c5221ff85a5b6c4da562f42de23451c2c4e12ceb0c28d",
-    "scripts/runtime/ingredient_market.gd": "285ab919e31927ddc9b8f0dddbcf89d53dc41d299f8fe4a915cd3955fc1537c6",
+    "scripts/runtime/ingredient_market.gd": "1ac7c525d652202decc4bb59b6293e1c847ca7593d45e93fb5d162cddd7e2885",
     "scripts/runtime/drag_scroll.gd": "9c9e632d219a7eb9d4966b061e4f40fcda6746dbbf17d53ec4171e8663620681",
     "scripts/runtime/room_departure.gd": "623fdd9e4f4ef822aaa3abe8efe858eb6496862b4457f033975403678d98b127",
-    "scripts/runtime/bakery_ui.gd": "f583f4dd30c8772f23fd564f2a2f9b270f99ed9b2733d806cb8a9a72f387d560"
+    "scripts/runtime/bakery_ui.gd": "d6a3f2fa3e9fb53d3133a3bbd9569787959a6c8c4b95f0457c8fe5dcca478980",
+    "scripts/runtime/bakery_chrome.gd": "db49c86325f605f58e45bcab502c51a2a0862dfe39973379f80882a2f73c2f49",
+    "scripts/runtime/bakery_manual.gd": "895daa8bcc162e0804404abcfc7ece50be43dc614da1843d60ca765366fd5e13",
+    "scripts/runtime/bakery_recipe_book.gd": "f08f02feaa1778255c8629329e2081e8fae1948445f6df0f86299656b2e793ee",
+    "scripts/runtime/v107_hand_kneading.gd": "56d65bc05e3304744d497ce6146991047de131202d408e9ce52aa838d45616a6",
+    "scripts/gameplay/bakery_tutorial.gd": "3082de946b41702936f96c8b13da55288e80803386afa52a81a47d6ecf4cddbf",
+    "scripts/gameplay/baking_flow.gd": "383634dc2871a6c8e292f3f03fad5db0fb87974c640a5655aabe5337d40210d1",
+    "scripts/gameplay/shop_simulation.gd": "7ce04cf1ad818e15b89706416ffaffde7c72ec93acd4e89053eb5075b89b6ca3",
+    "scripts/runtime/v107_live_kitchen.gd": "7586d3b43abf88cd36a5df3e679e35ff408ab9719d04a82582d96c59785d01b2",
+    "scripts/runtime/knead_input_guard.gd": "7750f2ff5cb947794d1e3e9834b32e942bbe510ed43e82bb9c20980522aeb8e9",
+    "scripts/runtime/bakery_icons.gd": "27374e52a5b87c30b9abf49e220cf940974234bbf5c19682d83b3cb715de05ef",
+    "scripts/runtime/bakery_icon_button.gd": "23c0bf443791386613b1762b1825a7070486da45410954796858263d3fee3090",
+    "scripts/runtime/manual_action_demo.gd": "a38c2e4f1471ab9286975866303746a8dde8dbd32a46b710b6bf40f9448b793d",
+    "scripts/runtime/mat_activity.gd": "5d4b7658410bdde910f23de42e455ff1296a6c464616abf2febbdc894d2c7533",
+    "scripts/runtime/v107_transfer_practice.gd": "0f05a4ec137ed3519dfeae56f8fe2499eb08cf9eca76920d487b027b3e9e4ed4"
   }
 }

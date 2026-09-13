@@ -82,7 +82,6 @@ launch.onclick = async () => {
     await engine.preloadFile(buffer.buffer, manifest.executable + '.pck');
     await engine.start({args: ['--main-pack', manifest.executable + '.pck']});
     progress.value = 100; gate.hidden = true; canvas.focus();
-    document.querySelector('#restart-link').hidden = false;
   } catch (error) { showError(error); }
 };
 reset.onclick = async () => {
@@ -93,5 +92,3 @@ reset.onclick = async () => {
   catch (error) { showError(error); }
   finally { busy = false; launch.disabled = reset.disabled = false; }
 };
-// Leave the running engine before showing reset, so it cannot write an old save back.
-document.querySelector('#restart-link').onclick = () => location.reload();
