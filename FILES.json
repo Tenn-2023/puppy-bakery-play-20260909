@@ -16,12 +16,12 @@
     "sha256": "662f81d7672001a6f5f928532493267c226624757de3b5fa2908f6e5923964b7"
   },
   "bakery-20260909.js": {
-    "bytes": 279815,
-    "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    "bytes": 279829,
+    "sha256": "d1804d6cfbdf03b2248c98e73a89361ed864257dc2d884e31dd34eaf72fe071a"
   },
   "bakery-20260909.pck.part00": {
     "bytes": 50331648,
-    "sha256": "adb8cc0739cd6e97e22006e64c6df76dbca6a6349161bf1420f28dedc8e46843"
+    "sha256": "c790e92acbcff610bad6f1b433508ceb2ab41808ea36560ffe02da2dba890ac6"
   },
   "bakery-20260909.pck.part01": {
     "bytes": 50331648,
@@ -52,8 +52,8 @@
     "sha256": "1a094cf4aa51b6c214dbb440f9fd20c5a412c3da205ab1a1f004ed414d2ac418"
   },
   "bakery-20260909.pck.part08": {
-    "bytes": 43882884,
-    "sha256": "a5537a3a2a53979b852cb30dbbe1762123ace830e2d719b99993398e6657cab7"
+    "bytes": 43883172,
+    "sha256": "e970b60d1a1e35d9ccfe11a481cb65a3aeed309d0522b99750c528a491649b17"
   },
   "bakery-20260909.wasm": {
     "bytes": 39514754,
@@ -61,11 +61,11 @@
   },
   "index.html": {
     "bytes": 2137,
-    "sha256": "a8f2eccab3770aa0f3a3e9e4e9e0cf96eb0a06817e2ff1829dd48d28e65791b4"
+    "sha256": "e9560d029447b3d491af81a137c0a6e0d02c26d27f5defc8d24f24b7cede83d3"
   },
   "launcher.js": {
-    "bytes": 6187,
-    "sha256": "635c50bd412f3de26fed4aeeb532637703cdedf9c7022e3f788bb5ebe8fdbb29"
+    "bytes": 7020,
+    "sha256": "fbe743ef624e0bd2b10b651391a2d7c36e3e844223aeb978b9a8111ca0fe3d5f"
   },
   "licenses/FONT-OFL.txt": {
     "bytes": 4388,
@@ -81,6 +81,6 @@
   },
   "release.json": {
     "bytes": 1675,
-    "sha256": "f71b3a9f0ce7b057640bb21330c3d430bde16893d774b615230852d0686d0c5f"
+    "sha256": "83119ec298c6c8ea9b1a44317066b154b3678c7089bd5bf3494dc7d6ab367358"
   }
 }

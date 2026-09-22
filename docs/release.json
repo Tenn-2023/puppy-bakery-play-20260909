@@ -1,12 +1,12 @@
 {
-  "version": "2026.09.22-gameplay-onboarding-r2",
+  "version": "2026.09.22-gameplay-onboarding-r3",
   "executable": "bakery-20260909",
-  "packBytes": 446536068,
+  "packBytes": 446536356,
   "parts": [
     {
       "file": "bakery-20260909.pck.part00",
       "bytes": 50331648,
-      "sha256": "adb8cc0739cd6e97e22006e64c6df76dbca6a6349161bf1420f28dedc8e46843"
+      "sha256": "c790e92acbcff610bad6f1b433508ceb2ab41808ea36560ffe02da2dba890ac6"
     },
     {
       "file": "bakery-20260909.pck.part01",
@@ -45,8 +45,8 @@
     },
     {
       "file": "bakery-20260909.pck.part08",
-      "bytes": 43882884,
-      "sha256": "a5537a3a2a53979b852cb30dbbe1762123ace830e2d719b99993398e6657cab7"
+      "bytes": 43883172,
+      "sha256": "e970b60d1a1e35d9ccfe11a481cb65a3aeed309d0522b99750c528a491649b17"
     }
   ],
   "fileSizes": {

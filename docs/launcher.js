@@ -8,6 +8,23 @@ const gate = document.querySelector('#gate');
 const revision = 'puppy-bakery-web-20260909';
 const saveNames = new Set(['bakery_game.json', 'bakery_web_20260909.json']);
 let busy = false;
+// CSS keeps the full screen; cap the backing buffer independently of phone DPR.
+function resizeGameCanvas() {
+  const rect = canvas.getBoundingClientRect();
+  if (!rect.width || !rect.height) return;
+  const scale = Math.min(1, 1280 / Math.max(rect.width, rect.height));
+  canvas.width = Math.max(1, Math.round(rect.width * scale));
+  canvas.height = Math.max(1, Math.round(rect.height * scale));
+}
+if (typeof window.addEventListener === 'function') {
+  window.addEventListener('resize', resizeGameCanvas);
+  canvas.addEventListener('webglcontextlost', () => {
+    status.textContent = '图形运行已中断，请刷新后继续；不要清除进度。';
+    gate.hidden = false;
+    launch.disabled = reset.disabled = true;
+  });
+  resizeGameCanvas();
+}
 function showError(error) {
   console.error(error); status.textContent = '未能启动：' + error.message + '。请刷新后重试。';
   gate.hidden = false; launch.disabled = false; reset.disabled = false; busy = false;
@@ -101,12 +118,12 @@ launch.onclick = async () => {
     // Loading or updating the game must never erase player saves.
     const manifest = await (await checkedFetch('release.json')).json();
     const engine = new Engine({executable: manifest.executable, canvas,
-      canvasResizePolicy: 2, focusCanvas: true, experimentalVK: true,
+      canvasResizePolicy: 0, focusCanvas: true, experimentalVK: true,
       fileSizes: manifest.fileSizes, persistentPaths: ['/userfs'],
       onPrint: (...args) => console.log(...args), onPrintError: (...args) => console.error(...args)});
     window.bakeryEngine = engine;
     status.textContent = '正在准备面包屋…';
-    const buffer = new Uint8Array(manifest.packBytes);
+    let buffer = new Uint8Array(manifest.packBytes);
     let offset = 0;
     downloadProgress(0, manifest.packBytes);
     for (const part of manifest.parts) offset += await downloadPart(part, buffer, offset);
@@ -116,6 +133,7 @@ launch.onclick = async () => {
     progress.value = 94;
     status.textContent = '正在载入面包屋…';
     await engine.preloadFile(buffer.buffer, manifest.executable + '.pck');
+    buffer = null; // The preloader/MEMFS owns the immutable bytes from here.
     await engine.start({args: ['--main-pack', manifest.executable + '.pck']});
     progress.value = 100; gate.hidden = true; canvas.focus();
   } catch (error) { showError(error); }
