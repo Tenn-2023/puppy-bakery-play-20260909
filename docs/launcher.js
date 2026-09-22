@@ -57,6 +57,44 @@ async function checkedFetch(path) {
   if (!response.ok) throw new Error(`下载失败 (${response.status})`);
   return response;
 }
+function downloadProgress(received, total) {
+  const percent = Math.floor(received / total * 100);
+  progress.value = received / total * 90;
+  status.textContent = `正在下载资源… ${percent}%（${(received / 1048576).toFixed(1)} / ${(total / 1048576).toFixed(1)} MB）`;
+}
+async function downloadPart(part, buffer, offset) {
+  if (!Number.isSafeInteger(part.bytes) || part.bytes <= 0 || offset + part.bytes > buffer.length) {
+    throw new Error('资源清单大小不正确');
+  }
+  const response = await checkedFetch(part.file);
+  let received = 0;
+  const append = bytes => {
+    if (received + bytes.length > part.bytes) throw new Error('资源分块大小不正确');
+    buffer.set(bytes, offset + received);
+    received += bytes.length;
+    downloadProgress(offset + received, buffer.length);
+  };
+  if (response.body && typeof response.body.getReader === 'function') {
+    const reader = response.body.getReader();
+    try {
+      while (true) {
+        const {done, value} = await reader.read();
+        if (done) break;
+        append(value);
+      }
+    } catch (error) {
+      try { await reader.cancel(); } catch (_) { /* Preserve the download error. */ }
+      throw error;
+    } finally { reader.releaseLock(); }
+  } else {
+    append(new Uint8Array(await response.arrayBuffer()));
+  }
+  if (received !== part.bytes) throw new Error('资源下载不完整，请重试');
+  const bytes = buffer.subarray(offset, offset + received);
+  const digest = [...new Uint8Array(await crypto.subtle.digest('SHA-256', bytes))].map(x => x.toString(16).padStart(2, '0')).join('');
+  if (digest !== part.sha256) throw new Error('资源校验失败，请刷新重新下载');
+  return received;
+}
 launch.onclick = async () => {
   if (busy) return; busy = true; launch.disabled = reset.disabled = true;
   try {
@@ -70,15 +108,13 @@ launch.onclick = async () => {
     status.textContent = '正在准备面包屋…';
     const buffer = new Uint8Array(manifest.packBytes);
     let offset = 0;
-    for (const part of manifest.parts) {
-      const bytes = new Uint8Array(await (await checkedFetch(part.file)).arrayBuffer());
-      const digest = [...new Uint8Array(await crypto.subtle.digest('SHA-256', bytes))].map(x => x.toString(16).padStart(2, '0')).join('');
-      if (bytes.length !== part.bytes || digest !== part.sha256) throw new Error('资源校验失败，请刷新重新下载');
-      buffer.set(bytes, offset); offset += bytes.length;
-      progress.value = offset / manifest.packBytes * 90;
-      status.textContent = `正在准备面包屋… ${Math.round(offset / manifest.packBytes * 100)}%`;
-    }
+    downloadProgress(0, manifest.packBytes);
+    for (const part of manifest.parts) offset += await downloadPart(part, buffer, offset);
+    if (offset !== manifest.packBytes) throw new Error('资源清单总大小不正确');
+    status.textContent = '资源下载完成，正在启动引擎…';
     await engine.init(manifest.executable);
+    progress.value = 94;
+    status.textContent = '正在载入面包屋…';
     await engine.preloadFile(buffer.buffer, manifest.executable + '.pck');
     await engine.start({args: ['--main-pack', manifest.executable + '.pck']});
     progress.value = 100; gate.hidden = true; canvas.focus();

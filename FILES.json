@@ -60,12 +60,12 @@
     "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
   },
   "index.html": {
-    "bytes": 2134,
-    "sha256": "9016246c883e2adaf2b877432c60ca35f64fccd04fb08b89504e984fa387af82"
+    "bytes": 2137,
+    "sha256": "a8f2eccab3770aa0f3a3e9e4e9e0cf96eb0a06817e2ff1829dd48d28e65791b4"
   },
   "launcher.js": {
-    "bytes": 4730,
-    "sha256": "6790661fcbb2590ff12c80b187f17281ae6a8c4d49fe9b6bec471b8e4397fdb4"
+    "bytes": 6187,
+    "sha256": "635c50bd412f3de26fed4aeeb532637703cdedf9c7022e3f788bb5ebe8fdbb29"
   },
   "licenses/FONT-OFL.txt": {
     "bytes": 4388,
@@ -80,7 +80,7 @@
     "sha256": "d5aeff0741d5cb7a566befd8867667549c8bb46399a0e93091273b632bbefd96"
   },
   "release.json": {
-    "bytes": 1672,
-    "sha256": "1645feb4f7f62f6c2c425d733e30bfd5e51d2c693a12e843b5c60686f1ee0995"
+    "bytes": 1675,
+    "sha256": "f71b3a9f0ce7b057640bb21330c3d430bde16893d774b615230852d0686d0c5f"
   }
 }

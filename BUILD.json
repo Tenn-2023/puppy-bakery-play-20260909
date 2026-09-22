@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.22-gameplay-onboarding",
+  "version": "2026.09.22-gameplay-onboarding-r2",
   "engine": "Godot 4.7.2 Compatibility Web single-thread",
   "source_assets": {
     "assets/town3d/watercolor_town.glb": "d3c7c1deed792fc88be80661e5a6c1c7278afc84952aedbf952dc99688ff274e",
@@ -12,7 +12,7 @@
     "scripts/runtime/interior_camera_input.gd": "d9b330ca27ce9fba235c5221ff85a5b6c4da562f42de23451c2c4e12ceb0c28d",
     "scripts/runtime/ingredient_market.gd": "6a96c343655e554bc99309618c8b9958cddf44d900555925d25462e3b24ec021",
     "scripts/gameplay/ingredient_storage.gd": "603d66a9c271e023c83572b74a062b878e53fe454e130c1255d80cbc0af0e7db",
-    "tools/web/demo-launcher.js": "6790661fcbb2590ff12c80b187f17281ae6a8c4d49fe9b6bec471b8e4397fdb4",
+    "tools/web/demo-launcher.js": "635c50bd412f3de26fed4aeeb532637703cdedf9c7022e3f788bb5ebe8fdbb29",
     "scripts/runtime/drag_scroll.gd": "a53b7f236e32cc8c3404ca72bc32a4b963827cc93b8d8d2a98c830a9941d2c85",
     "scripts/runtime/room_departure.gd": "623fdd9e4f4ef822aaa3abe8efe858eb6496862b4457f033975403678d98b127",
     "scripts/runtime/bakery_ui.gd": "6437acc77734f5a0765fa0a1f5f32e938fbd94368650bc525dcbf9a7ffdae7d0",
