@@ -60,7 +60,7 @@ async function checkedFetch(path) {
 launch.onclick = async () => {
   if (busy) return; busy = true; launch.disabled = reset.disabled = true;
   try {
-    if (localStorage.getItem(revision) !== 'ready') await clearBakeryData();
+    // Loading or updating the game must never erase player saves.
     const manifest = await (await checkedFetch('release.json')).json();
     const engine = new Engine({executable: manifest.executable, canvas,
       canvasResizePolicy: 2, focusCanvas: true, experimentalVK: true,
